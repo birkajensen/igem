@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+	<!--jQuery (bootstrap js plugins depend on this) -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	
+	<!-- meta-tags for specifying different compatibilities-->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=egde">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Title at the tab of the browser -->
 	<title>Bacto-Aid - Home</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -12,60 +20,72 @@
 	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
 </head>
 
-<header>
-	<div class="container">
-	    <nav id="header-nav" class="navbar navbar-default">
-      		
-        		<div class="navbar-header">
-          			<a href="index.html" class="pull-left visible-md visible-lg">
-            			<div id="logo-img"></div>
-          			</a>
 
-					<div class="navbar-brand">
-            			<a href="index.html">
-            				<h1>SDU-iGEM-TEAM</h1>
-            			</a>
-           			</div>
-           		</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-2 col-md-2"></div>
+	    <div id="header" class="header col-lg-8 col-md-8">
       		
+      		<a href="home.html" class="pull-left visible-md visible-lg">
+            	<img id="logo" src="images/Bly-Mand_1.jpeg" alt="logo">
+          	</a>
+
+			<div class="brand pull-left">
+            	<a href="home.html">
+            		<h1>SDU-iGEM-TEAM</h1>
+            	</a>
+           	</div>
+           		
+      		<!-- Single dropdown button -->
+			<div class="dropdown btn-group pull-right">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    MENU <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a href="http://2016.igem.org/Team:SDU-Denmark/Team">Team</a></li>
+			    <li><a href="#">Another action</a></li>
+			    <li><a href="#">Something else here</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">Separated link</a></li>
+			  </ul>
+			</div>
+		</div>
+		<div class="col-lg-2 col-md-2"></div> <!--empty space at top right-->
+	</div> <!--div "row" stops here-->
+</div> <!--container-fluid for the header stops here-->
+
+<!-- Next row starts here -->
+<div class="container-fluid">
+  	<div class="row">
+  		<div id="leftside" class="col-lg-2 col-md-2">
+  			
+  		</div>
+    	<div id="page" class="col-lg-8 col-md-8">
+			<p> hello you. put your text and pictures here.
+
+			</p>
+		</div>	
+
+		<nav id="rightside collapseable-nav" class='collapse navbar-collapse col-lg-2 col-md-2'>
+        
+        	<ul class="nav nav-tabs nav-stacked hidden-xs ">
+          		<li><a href='#'>Another Link 1</a></li>
+          		<li><a href='#'>Another Link 2</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+          		<li><a href='#'>Another Link 3</a></li>
+        	</ul>
 		</nav>
-	</div>
-</header>
-
-<div id="page" class="container">
-		<p> hello you
-
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-</div>	
+  	</div>
+</div>
 
 
-<!--jQuery (bootstrap js plugins depend on this) -->
-	<script src="js/jquery-3.0.0.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+
 </body>
 </html>

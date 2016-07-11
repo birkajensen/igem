@@ -4,21 +4,53 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.navbar-brand{
-	
+.header{ 
+	background-color: #fff;
+	height: 130px;
+	background-image: linear-gradient(90deg, transparent 110px, #abced4 110px, #abced4 112px, transparent 112px);
+	margin: 0px 0px 0px 0px;
+	border:0;
+	border-radius: 0;
+}
+
+#logo{ /*picture on top of page*/
+	height: 130px;
+	margin: 0px 15px 0px 130px;
+}
+
+.brand{ /*distance from top to name on top of page*/
+	padding-top: 75px;
+}
+
+.brand h1{ /*name on top of page*/
+	font-family: Georgia, serif;
+	color: lightgray;
+	font-size:2.2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+
+.brand a:hover, .brand a:focus{
+	text-decoration: none;
 }
 
 #page {
+	height: 1200px;
 	background-color: #fff; 
 	background-image: 
-	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-	linear-gradient(#eee .1em, transparent .1em);
-	background-size: 100% 1.5em;
+		linear-gradient(90deg, transparent 110px, #abced4 110px, #abced4 112px, transparent 112px),
+		linear-gradient(#eee .1em, transparent .1em);
+		background-size: 100% 1.5em;
 
 	
 }
 
+
+
 p {
-	padding: .49em 1em 1em 3em;
+	padding: .49em 1em 1em 5em;
 	line-height: 1.5
 }
