@@ -1,5 +1,5 @@
 body {
-	background-image: url("/images/zenbg.png");
+	background-image: url("/images/ZenBG.png");
 	font-size: 2.5em;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -15,7 +15,7 @@ body {
 
 #logo{ /*picture on top of page*/
 	height: 130px;
-	margin: 0px 15px 0px 130px;
+	margin: 0px 100px 0px 0px;
 }
 
 .brand{ /*distance from top to name on top of page*/
@@ -28,9 +28,11 @@ body {
 	font-size:2.2em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
+	margin-top: 0px;
+	margin-left: 130px; 	
 	margin-bottom: 0;
 	line-height: 0.75;
+
 }
 
 .brand a:hover, .brand a:focus{
