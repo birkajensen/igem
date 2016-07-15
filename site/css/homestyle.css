@@ -1,5 +1,5 @@
 body {
-	background-color: #BEBEBE;
+	background-image: url("/images/zenbg.png");
 	font-size: 2.5em;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -44,13 +44,53 @@ body {
 		linear-gradient(90deg, transparent 110px, #abced4 110px, #abced4 112px, transparent 112px),
 		linear-gradient(#eee .1em, transparent .1em);
 		background-size: 100% 1.5em;
-
-	
 }
-
-
 
 p {
 	padding: .49em 1em 1em 5em;
 	line-height: 1.5
+}
+
+/* Rightside menu*/
+div#sidemenu{
+	font-size: 1vw;
+	padding-left: 0;
+	padding-right: 4vw;
+	border-radius: 0;
+	}
+
+.panel-heading{
+	height: 3vw;
+	padding:0;
+	
+}
+
+#tab1.panel-heading{
+background-color: #52c332;
+border-radius: 0;	
+}
+
+
+.panel-group .panel{
+	border-radius: 0;
+	border:0;
+	margin-bottom: .5em;
+}
+
+#collapseOne.panel-collapse{
+
+	margin:0;
+}
+
+#tab1.panel-title{
+	width: 80%;
+	text-align:left;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+	border:0;
+
+}
+
+td{
+	border:0;
 }
