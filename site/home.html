@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+<body>
+<!-- code for facebook button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- code for facebook button done -->
+	<!-- code for top of page -->
 <head>
 
 	<!--jQuery (bootstrap js plugins depend on this) -->
@@ -48,7 +60,8 @@
 <div class="container-fluid">
   	<div class="row">
   		<div id="leftside" class="col-lg-2 col-md-2">
-  			
+  			<div class="fb-follow" data-href="https://www.facebook.com/IGEMSyddanskuniversitet/?fref=ts" data-layout="button" data-size="large" data-show-faces="false"></div>
+  			<a href="https://twitter.com/SDU_iGEM" class="twitter-follow-button pull-left" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @SDU_iGEM</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   		</div>
     	<div id="page" class="col-lg-8 col-md-8">
 			<p> hello you. put your text and pictures here.
@@ -65,11 +78,11 @@
                             </span>Introductions</a>
                         </h4>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <table class="table">
+                    <div id="collapseOne" class="panel-collapse collapse in" style="background-color:rgba(0,0,0,0);">
+                        <div class="panel-body" style="background-color:rgba(0,0,0,0);">
+                            <table class="table" style="background-color:rgba(0,0,0,0);">
                                 <tr>
-                                    <td width="80%">
+                                    <td width="80%" id="team">
                                         <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Articles</a>
                                     </td>
                                 </tr>

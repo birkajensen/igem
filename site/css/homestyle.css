@@ -15,7 +15,7 @@ body {
 
 #logo{ /*picture on top of page*/
 	height: 130px;
-	margin: 0px 100px 0px 0px;
+	margin: 0px 50px 0px 0px;
 }
 
 .brand{ /*distance from top to name on top of page*/
@@ -93,6 +93,36 @@ border-radius: 0;
 
 }
 
+div.panel-body{
+	background: transparent;
+	padding: 0;
+	margin: 10px 15px 10px 0px;
+}
+
+table.table {
+	margin:-10px 0px -10px 0px;
+	border:0px;
+	border-collapse: separate;
+	border-spacing: 0px 10px;
+}
+
+.panel{
+	background-color: rgba(0,0,0,0);
+}
+
+
+
+/*remove the lines between buttons*/
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border-top:0px solid rgba(0,0,0,0);
+	border-left: 0px;
+}
+
+tr{
+	background-color: rgba(0,0,0,0);
+}
 td{
-	border:0;
+	margin-color:rgba(0,0,0,0);
+	background-color: #98e698;
+	height:2em;
 }
