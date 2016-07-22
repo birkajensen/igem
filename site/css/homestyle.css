@@ -1,13 +1,15 @@
 body {
 	background-image: url("/images/ZenBG.png");
-	font-size: 2.5em;
+	font-size: 1.5vw;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+/* header of the page*/
 .header{ 
+
 	background-color: #fff;
 	height: 130px;
-	background-image: linear-gradient(90deg, transparent 110px, #abced4 110px, #abced4 112px, transparent 112px);
+	background-image: linear-gradient(90deg, transparent 5.8vw, #abced4 5.8vw, #abced4 5.9vw, transparent 5.9vw);
 	margin: 0px 0px 0px 0px;
 	border:0;
 	border-radius: 0;
@@ -25,7 +27,7 @@ body {
 .brand h1{ /*name on top of page*/
 	font-family: Georgia, serif;
 	color: lightgray;
-	font-size:2.2em;
+	font-size:3.5vw;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0px;
@@ -35,41 +37,56 @@ body {
 
 }
 
+/*removes the decoration of the title*/
 .brand a:hover, .brand a:focus{
 	text-decoration: none;
 }
+
+/*the page body*/
 
 #page {
 	height: 1200px;
 	background-color: #fff; 
 	background-image: 
-		linear-gradient(90deg, transparent 110px, #abced4 110px, #abced4 112px, transparent 112px),
-		linear-gradient(#eee .1em, transparent .1em);
-		background-size: 100% 1.5em;
+		linear-gradient(90deg, transparent 5.8vw, #abced4 5.8vw, #abced4 5.9vw, transparent 5.9vw),
+		linear-gradient(#eee .1vw, transparent .1vw);
+	/*background-image: url(/images/spiral.png), width:70px;*/
+	background-size: 100% 1.85vw;
+	
 }
-
+/*paragraph styling*/
 p {
-	padding: .49em 1em 1em 5em;
-	line-height: 1.5
+	padding: .49vw 1vw 1vw 6.5vw;
+	line-height: 1.85vw;
 }
 
 /* Rightside menu*/
 div#sidemenu{
+
 	font-size: 1vw;
-	padding-left: 0;
+	padding-left: 0px;
 	padding-right: 4vw;
 	border-radius: 0;
 	}
 
+
+/*chapter labels*/
 .panel-heading{
-	height: 3vw;
-	padding:0;
-	
+	/*height: 4vw;*/
+	padding:.7vw;
+	box-shadow: 2px 2px 4px grey;
+	border-radius: 0;
+
 }
 
+/*font size of chapter labels*/
+.panel-heading>h4{
+	font-size:1.5vw;
+}
+
+/*color of chapter labels*/
 #tab1.panel-heading{
-background-color: #52c332;
-border-radius: 0;	
+	background-color: #52c332;
 }
 
 
@@ -96,7 +113,7 @@ border-radius: 0;
 div.panel-body{
 	background: transparent;
 	padding: 0;
-	margin: 10px 15px 10px 0px;
+	margin: 10px 15px 10px 0px;	
 }
 
 table.table {
@@ -124,5 +141,33 @@ tr{
 td{
 	margin-color:rgba(0,0,0,0);
 	background-color: #98e698;
-	height:2em;
+	/*height:2em;*/
 }
+
+.activestate{
+	margin-left: -3.5vw !IMPORTANT;
+	padding-left: 4vw !IMPORTANT;
+	
+}
+
+tr.activestate{
+	border-left: 3.5vw !IMPORTANT;
+	padding-left: 4vw !IMPORTANT;
+	
+}
+
+/*design for the footer*/
+.footer {
+	height:100px;
+	border:0;
+	background-color: #fff;
+	background-image: linear-gradient(90deg, transparent 5.8vw, #abced4 5.8vw, #abced4 5.9vw, transparent 5.9vw);
+  	
+}
+
+.fb_iframe_widget {
+	position:absolute;
+	right: 1vw;
+	top : 0vw;
+}
+
