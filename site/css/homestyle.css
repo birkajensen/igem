@@ -1,7 +1,7 @@
 body {
-	background-image: url("/images/ZenBG.png");
+	background-image: url("/images/background01.jpg");
 	font-size: 1.8em;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "helvetica Neue","Helvetica", Arial, sans-serif;
 }
 
 /* header of the page*/
@@ -9,7 +9,7 @@ body {
 
 	
 	height: 120px;
-	background-image: url("/images/spiralpatternnovertical.png");
+	background-image: url("/images/frontpagebookcoversand.png");
 	background-size:125% 30px;
 	margin: 0px 0px 0px 0px;
 	border:0;
@@ -17,31 +17,34 @@ body {
 }
 
 #logo{ /*picture on top of page*/
-	height: 130px;
-	margin: 0px 50px 0px 0px;
+	height: 450px;
+	position:absolute;
+	right:100px;
+	top:20px;
 }
 
 .brand{ /*distance from top to name on top of page*/
-	padding-top: 60px;
+	padding-top: 200px;
 }
 
-.brand h1{ /*name on top of page*/
+h1.brand { /*name on top of page*/
 	font-family: Georgia, serif;
-	color: lightgray;
+	color: darkgrey;
 	
-	font-size:3em;
+	font-size:4em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0px;
 	margin-left: 130px;
 	margin-bottom: 0;
-	line-height: 0.75;
+	line-height: 1;
 
 }
 
 /*removes the decoration of the title*/
 .brand a:hover, .brand a:focus{
 	text-decoration: none;
+	text-align: center;
 }
 
 /*the page body*/
@@ -49,14 +52,30 @@ body {
 #page {
 	height: 1200px;
 	 
-	background-image: url("/images/spiralpattern.png");
-	background-size:125% 30px;
+	background: url("/images/blymandsand.png") center center no-repeat, url("/images/frontpagebookcoversand.png");
+	/*background-size:125% 30px;*/
 	
 }
 /*paragraph styling*/
+
+#video{
+	position: absolute;
+	top:50%;
+	right:9%;
+	width: 80%
+}
+
 p {
 	padding: .45em 7em 1em 130px;
 	line-height: 1.7em;
+}
+
+p>a{
+	color: #4f6b9e; 
+}
+
+p>a:hover{
+	color: #ff5c00;
 }
 
 /* Rightside menu*/
@@ -81,12 +100,55 @@ div#sidemenu{
 /*font size of chapter labels*/
 .panel-heading>h4{
 	font-size:1.5vw;
+	color: white;
 }
 
 /*color of chapter labels*/
 #tab1.panel-heading{
-	background-color: #52c332;
+	background-color: #342378;
 }
+
+#tab2.panel-heading{
+	background-color: #6454a4;
+}
+
+#tab3.panel-heading{
+	background-color: #05544c;
+}
+
+#tab4.panel-heading{
+	background-color: #156c63;
+}
+#tab5.panel-heading{
+	background-color: #0e295a;
+}
+#tab6.panel-heading{
+	background-color: #203d73;
+}
+#tab7.panel-heading{
+	background-color: #4f6b9e;
+}
+/*background colors on small labels*/
+#team,#collaborations,#description,#design,#experiments,#proof,#demonstrate,#results,#notebook{
+	
+	background-color: #8d80c2; /*purple*/
+	
+	/*height:2em;*/
+}
+
+#basic,#composite,#collection,#safety{
+	background-color: #6FB4AD; /*green*/
+}
+
+#attributions,#hp1,#hp2,#hp3,#awards1,#awards2,#awards3,#awards4{
+	background-color: #7B92BD
+}
+
+/*text color on small labels*/
+td>a{
+	color: white;
+}
+
 
 
 .panel-group .panel{
@@ -134,14 +196,8 @@ table.table {
 	border-left: 0px;
 }
 
-tr{
-	background-color: rgba(0,0,0,0);
-}
-td{
-	margin-color:rgba(0,0,0,0);
-	background-color: #98e698;
-	/*height:2em;*/
-}
+
+
 
 .activestate{
 	margin-left: -3.5vw !IMPORTANT;
@@ -153,6 +209,7 @@ tr.activestate{
 	border-left: 3.5vw !IMPORTANT;
 	padding-left: 4vw !IMPORTANT;
 	
+	
 }
 
 /*design for the footer*/
@@ -160,7 +217,7 @@ tr.activestate{
 	/*height:100px;*/
 	border:0;
 
-	background-image: url("/images/spiralpatternnovertical.png");
+	background-image: url("/images/frontpagebookcoversand.png");
 
 	background-size:125% 30px;
 	/*background-size: 100% 1.85vw;	*/

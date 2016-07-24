@@ -13,11 +13,11 @@ $(function() {
 });
 
 $(function() {
-  $('tr').click(function() {
+  $('td').click(function() {
     if ($(this).hasClass('activestate')) {
       $(this).removeClass('activestate');
     } else {
-      $('tr').removeClass('activestate');
+      $('td').removeClass('activestate');
       $(this).addClass('activestate');
     }
   });

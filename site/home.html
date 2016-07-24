@@ -32,31 +32,23 @@
 	<link rel="stylesheet" type="text/css" href="http://2016.igem.org/common/tablesorter/themes/groupparts/style.css">
 	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
 
+ <div id="header" class="container-fluid">
+        <div class="row">
+            <!--<div class="col-lg-2 col-md-2"></div>-->
+            <div class="header col-lg-8 col-lg-push-2 col-md-10">
+            
+                
+                
+                
+            
+            
+            </div>
+            <!--<div class="col-lg-2 col-md-2"></div>--> <!--empty space at top right-->
+        </div> <!--div "row" stops here-->
+    </div> <!--container-fluid for the header stops here-->
 
-	<div id="header" class="container-fluid">
-		<div class="row">
-			<!--<div class="col-lg-2 col-md-2"></div>-->
-	    	<div class="header col-lg-8 col-lg-push-2 col-md-8 col-md-push-2">
-      		
-      			<a href="home.html" class="pull-right visible-md visible-lg visible-sm" >
-            		<img id="logo" src="images/Bly-Mand_1.jpeg" alt="logo">
-          		</a>
-
-				<div class="brand pull-left">
-            		<a href="home.html">
-            			<h1>SDU-iGEM-TEAM</h1>
-            		</a>
-           		</div>
-           		
-      		
-			
-			</div>
-			<!--<div class="col-lg-2 col-md-2"></div>--> <!--empty space at top right-->
-		</div> <!--div "row" stops here-->
-	</div> <!--container-fluid for the header stops here-->
-
-
-	</head>
+</head>
+	
 
 
 
@@ -66,24 +58,13 @@
 	<div class="container-fluid">
   		<div class="row">
   			
-    		<div id="page" class="col-lg-8 col-lg-push-2 col-md-8 col-md-push-2">
-				<p> hello you. put your text and pictures here.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+    		<div id="page" class="col-lg-8 col-lg-push-2 col-md-10">
+    			<h1 class="brand">Lab<br>Journal</h1>
+    			<!--<img id="logo" src="/images/blymandsand.png">-->
+				<!--<img id="video" src="http://placehold.it/800x450/d3d3d3/f2f2f2">-->
 			</div>	
 
-			<div id="sidemenu" class="col-lg-2 col-lg-push-2 col-md-2 col-md-push-2"> 
+			<div id="sidemenu" class="col-lg-2 col-lg-push-2 col-md-2"> 
 	            <div class="panel-group" id="accordion">
 	                <div class="panel panel-default">
 	                    <div id="tab1" class="panel-heading">
@@ -91,16 +72,16 @@
 	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Introductions</a>
 	                        </h4>
 	                    </div>
-	                    <div id="collapseOne" class="panel-collapse collapse" style="background-color:rgba(0,0,0,0);">
-	                        <div class="panel-body" style="background-color:rgba(0,0,0,0);">
-	                            <table class="table" style="background-color:rgba(0,0,0,0);">
+	                    <div id="collapseOne" class="panel-collapse collapse" >
+	                        <div class="panel-body" >
+	                            <table class="table">
 	                                <tr>
-	                                    <td width="80%" id="team">
+	                                    <td id="team">
 	                                        <a href="http://2016.igem.org/Team:SDU-Denmark/Team">Team</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td width="80%">
+	                                    <td id="collaborations">
 	                                       <a href="http://2016.igem.org/Team:SDU-Denmark/Collaborations">Collaborations</a>
 	                                    </td>
 	                                </tr>
@@ -119,36 +100,36 @@
 	                        <div class="panel-body">
 	                            <table class="table">
 	                                <tr>
-	                                    <td>
+	                                    <td id="description">
 	                                        <a href="http://2016.igem.org/Team:SDU-Denmark/Description">Description</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="design">
 	                                        <a href="http://2016.igem.org/Team:SDU-Denmark/Design">Design</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="experiments">
 	                                        <a href="http://2016.igem.org/Team:SDU-Denmark/Experiments">Experiments</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="proof">
 	                                        <a href="http://www.jquery2dotnet.com">Proof Of Concept</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="demonstrate">
 	                                        <a href="http://www.jquery2dotnet.com">Demonstrate</a>
 	                                    </td>
 	                                </tr>
-	                                    <td>
+	                                    <td id="results">
 	                                        <a href="http://www.jquery2dotnet.com">Results</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="notebook">
 	                                        <a href="http://www.jquery2dotnet.com">Notebook</a>
 	                                    </td>
 	                                </tr>
@@ -168,17 +149,17 @@
 	                        <div class="panel-body">
 	                            <table class="table">
 	                                <tr>
-	                                    <td>
+	                                    <td id="basic">
 	                                        <a href="http://www.jquery2dotnet.com">Basic parts</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="composite">
 	                                        <a href="http://www.jquery2dotnet.com">Composite Parts</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
+	                                    <td id="collection">
 	                                        <a href="http://www.jquery2dotnet.com">Part Collection</a>
 	                                    </td>
 	                                </tr>
@@ -190,16 +171,15 @@
 	                <div class="panel panel-default">
 	                    <div id="tab4" class="panel-heading">
 	                        <h4 class="panel-title">
-	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-file">
-	                            </span>Safety</a>
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Safety</a>
 	                        </h4>
 	                    </div>
 	                    <div id="collapseFour" class="panel-collapse collapse">
 	                        <div class="panel-body">
 	                            <table class="table">
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+	                                    <td id="safety">
+	                                        <a href="http://www.jquery2dotnet.com">Safety</a>
 	                                    </td>
 	                                </tr>
 	                                
@@ -217,8 +197,8 @@
 	                        <div class="panel-body">
 	                            <table class="table">
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+	                                    <td id="attributions">
+	                                        <a href="http://www.jquery2dotnet.com">Attributions</a>
 	                                    </td>
 	                                </tr>
 	                                
@@ -236,18 +216,18 @@
 	                        <div class="panel-body">
 	                            <table class="table">
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+	                                    <td id="hp1">
+	                                        <a href="http://www.jquery2dotnet.com">Sales</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-user"></span><a href="http://www.jquery2dotnet.com">Customers</a>
+	                                    <td id="hp2">
+	                                        <a href="http://www.jquery2dotnet.com">Customers</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-tasks"></span><a href="http://www.jquery2dotnet.com">Products</a>
+	                                    <td id="hp3">
+	                                        <a href="http://www.jquery2dotnet.com">Products</a>
 	                                    </td>
 	                                </tr>
 	                                
@@ -258,31 +238,30 @@
 	                <div class="panel panel-default">
 	                    <div id="tab7" class="panel-heading">
 	                        <h4 class="panel-title">
-	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven"><span class="glyphicon glyphicon-file">
-	                            </span>Awards</a>
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Awards</a>
 	                        </h4>
 	                    </div>
 	                    <div id="collapseSeven" class="panel-collapse collapse">
 	                        <div class="panel-body">
 	                            <table class="table">
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+	                                    <td id="awards1">
+	                                        <a href="http://www.jquery2dotnet.com">Sales</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-user"></span><a href="http://www.jquery2dotnet.com">Customers</a>
+	                                    <td id="awards2">
+	                                        <a href="http://www.jquery2dotnet.com">Customers</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-tasks"></span><a href="http://www.jquery2dotnet.com">Products</a>
+	                                    <td id="awards3">
+	                                        <a href="http://www.jquery2dotnet.com">Products</a>
 	                                    </td>
 	                                </tr>
 	                                <tr>
-	                                    <td>
-	                                        <span class="glyphicon glyphicon-shopping-cart"></span><a href="http://www.jquery2dotnet.com">Shopping Cart</a>
+	                                    <td id="awards4">
+	                                        <a href="http://www.jquery2dotnet.com">Shopping Cart</a>
 	                                    </td>
                                 	</tr>
                             	</table>
@@ -296,7 +275,7 @@
 		<!-- footer -->
 		<div class="container-fluid" id="foot">
 			<div class="row">
-				<div class="footer col-lg-8 col-lg-push-2 col-md-8 col-md-push-2">
+				<div class="footer col-lg-8 col-lg-push-2 col-md-10">
 					<div class="fb-follow" data-href="https://www.facebook.com/IGEMSyddanskuniversitet/?fref=ts" data-layout="button" data-size="large" data-show-faces="false">
   					</div><br>
   					<a href="https://twitter.com/SDU_iGEM" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" >Follow @SDU_iGEM
