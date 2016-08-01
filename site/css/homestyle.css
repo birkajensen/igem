@@ -52,8 +52,8 @@ h1.brand { /*name on top of page*/
 #page {
 	height: 1200px;
 	 
-	background: url("/images/blymandsand.png") center center no-repeat, url("/images/frontpagebookcoversand.png");
-	/*background-size:125% 30px;*/
+	background: url("/images/simplelogo.png") top right no-repeat, url("/images/frontpagebookcoversand.png");
+	background-size:50%,125% 30px;
 	
 }
 /*paragraph styling*/
@@ -80,7 +80,7 @@ p>a:hover{
 
 /* Rightside menu*/
 div#sidemenu{
-
+	margin-top: 120px;
 	font-size: 1vw;
 	padding-left: 0px;
 	padding-right: 4vw;
