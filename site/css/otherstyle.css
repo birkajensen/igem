@@ -216,7 +216,7 @@ table.table {
 
 /*design for the footer*/
 .footer {
-	/*height:100px;*/
+	height:100px;
 	border:0;
 
 	background-image: url("../images/spiralpatternnovertical.png");
